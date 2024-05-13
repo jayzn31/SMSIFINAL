@@ -1,0 +1,17 @@
+Installation:
+
+1. Install Php 8 or newer and composer (If your system does not have the following). 
+2. Install laragon (https://laragon.org/download/)
+3. Install phpMyAdmin in laragon
+4. Open laragon and start everything (click "Start all")
+5. Open browser and type the following URL: "http://localhost/phpmyadmin/index.php"
+6. Login using your credential (optional on windows 10 or higher)
+7. Import your .sql file
+8. Open "JobHuntApi" (backend) folder right click and select "open terminal here"
+9. Type "composer install" in the terminal (wait until finished)
+10. In the same terminal type "php artisan migrate"
+11. Exit or close the terminal
+12. Install nodejs version 16 or higher (If your system does not have the following).
+13. Open JobLynx folder right click and select "open terminal here"
+14. Type "npm install --legacy-peer-deps" in the terminal (wait until finished)
+15. In the same terminal type "npm run build" to build your software for production, or type "npm run dev" to run your software locally as development mode.
